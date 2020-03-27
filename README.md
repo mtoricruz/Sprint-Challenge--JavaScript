@@ -30,26 +30,39 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.forEach() does not create a new array like .map() does.
+
 2. What is the difference between a function and a method?
+
+The difference between the 2 is that a method is a function inside an object.
 
 3. What is closure?
 
+Closure is the ability to put functions together and it's code that has been identified that we can use later.
+
 4. Describe the four rules of the 'this' keyword.
 
+  1. Window/Global Object Binding: in a global scope, this will be the console object
+  2. Implicit Binding: is when this keyword points to what's left of the dot on a function that's being called.
+  3. New Binding: is when this refers to a specific instance of an object that's in the constructor function
+  4. Explicit Binding: is when we use .call/.apply method to explicitly define what this would be.
+
 5. Why do we need super() in an extended class?
+
+.super() allows us to “inherit” the attributes of a Parent class into the new Child class.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] You are now ready to build this project with your preferred IDE
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
@@ -66,19 +79,19 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [x] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+* [x] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [x] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
